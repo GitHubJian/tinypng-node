@@ -7,11 +7,6 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "beautify": "beautify --fix"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm run beautify"
-    }
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/GitHubJian/tinypng-node.git"
@@ -22,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/GitHubJian/tinypng-node/issues"
   },
-  "homepage": "https://github.com/GitHubJian/tinypng-node#readme"
+  "homepage": "https://github.com/GitHubJian/tinypng-node#readme",
+  "devDependencies": {
+    "husky": "^3.0.5"
+  }
 }

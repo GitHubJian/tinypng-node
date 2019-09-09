@@ -1,7 +1,7 @@
-var a = 1
+const a = 1;
 
 function b() {
-  return a
+    return a;
 }
 
-console.log(a())
+console.log(a());
